@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Women, Labor & Exploitation Timeline</title>
+
+<style>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #ffffff;
+  color: #111;
+  line-height: 1.6;
+}
+
+header {
+  background: #ffc400;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.timeline {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+  border-left: 3px solid #007d87;
+}
+
+.event {
+  margin-bottom: 60px;
+  padding-left: 20px;
+  position: relative;
+}
+
+.event::before {
+  content: "";
+  position: absolute;
+  left: -10px;
+  top: 5px;
+  width: 15px;
+  height: 15px;
+  background: #d42442;
+  border-radius: 50%;
+}
+
+.year {
+  font-weight: bold;
+  color: #007d87;
+}
+
+img {
+  width: 100%;
+  border-radius: 8px;
+  margin: 10px 0;
+}
+
+.caption {
+  font-size: 0.85em;
+  color: #555;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.quote {
+  font-style: italic;
+  color: #555;
+  margin-top: 10px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>Women, Labor & Exploitation in the U.S.</h1>
+  <p>A timeline of how policies and systems shaped women's labor protections and vulnerabilities.</p>
+</header>
+
+<div class="timeline">
+
+  <div class="event">
+    <div class="year">1911 (Context)</div>
+    <h2>Triangle Shirtwaist Factory Fire</h2>
+
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Triangle_Shirtwaist_Factory_fire.jpg">
+
+    <div class="caption">
+      Triangle Shirtwaist Factory fire, New York City. 146 workers—mostly immigrant women—were killed after being trapped inside locked factory floors. :contentReference[oaicite:0]{index=0}
+    </div>
+
+    <p><span class="label">What happened:</span> Factory fire killed 146 workers, most young immigrant women.</p>
+    <p><span class="label">Vulnerability:</span> Locked doors prevented escape—a common labor control practice.</p>
+    <p class="quote">“Workers died because safety and control were prioritized over their lives.”</p>
+  </div>
+
+  <div class="event">
+    <div class="year">1935–1938</div>
+    <h2>New Deal Labor Laws</h2>
+    <p><span class="label">What happened:</span> Minimum wage, overtime, and collective bargaining established.</p>
+    <p><span class="label">Vulnerability:</span> Domestic and agricultural workers excluded—disproportionately Black women and immigrant women.</p>
+  </div>
+
+  <div class="event">
+    <div class="year">1995</div>
+    <h2>El Monte Thai Garment Slavery Case</h2>
+
+    <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/El_Monte_sweatshop.jpg">
+
+    <div class="caption">
+      Site of the El Monte garment compound where Thai women were held in forced labor conditions behind barbed wire. Workers reported being confined and paid extremely low wages. :contentReference[oaicite:1]{index=1}
+    </div>
+
+    <p><span class="label">What happened:</span> 72 Thai women held in captivity and forced to work in a garment factory.</p>
+    <p><span class="label">Vulnerability:</span> Debt bondage, immigration coercion, isolation.</p>
+    <p class="quote">“Conditions described as modern-day slavery in the United States.”</p>
+  </div>
+
+  <div class="event">
+    <div class="year">2000</div>
+    <h2>Trafficking Victims Protection Act</h2>
+    <p><span class="label">What happened:</span> First federal law defining labor trafficking.</p>
+    <p><span class="label">Limitation:</span> Relief tied to law enforcement cooperation.</p>
+  </div>
+
+  <div class="event">
+    <div class="year">2015</div>
+    <h2>Nail Salon Investigation</h2>
+    <p><span class="label">What happened:</span> Major exposé revealed widespread wage theft and unsafe conditions.</p>
+    <p><span class="label">Vulnerability:</span> Debt, immigration status, and piece-rate pay.</p>
+  </div>
+
+  <div class="event">
+    <div class="year">2022</div>
+    <h2>Operation Blooming Onion</h2>
+    <p><span class="label">What happened:</span> Large forced labor case in agriculture.</p>
+    <p><span class="label">Vulnerability:</span> Employer-controlled housing and coercion.</p>
+  </div>
+
+</div>
+
+</body>
+</html>
